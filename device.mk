@@ -30,6 +30,10 @@ $(call inherit-product, vendor/motorola/liber/liber-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    Gboard
+
 # Audio
 PRODUCT_PACKAGES += \
     libgui_vendor
