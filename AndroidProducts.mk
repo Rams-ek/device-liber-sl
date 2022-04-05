@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_liber.mk
+    $(LOCAL_DIR)/awaken_liber.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_liber-eng \
-    xtended_liber-user \
-    xtended_liber-userdebug
+    awaken_liber-eng \
+    awaken_liber-user \
+    awaken_liber-userdebug
