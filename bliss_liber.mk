@@ -22,10 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/liber/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := xtended_liber
+PRODUCT_NAME := bliss_liber
 PRODUCT_DEVICE := liber
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Motorola One Fusion+

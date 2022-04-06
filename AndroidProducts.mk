@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_liber.mk
+    $(LOCAL_DIR)/bliss_liber.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_liber-eng \
-    xtended_liber-user \
-    xtended_liber-userdebug
+    bliss_liber-eng \
+    bliss_liber-user \
+    bliss_liber-userdebug
