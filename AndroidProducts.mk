@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_liber.mk
+    $(LOCAL_DIR)/cherish_liber.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_liber-eng \
-    awaken_liber-user \
-    awaken_liber-userdebug
+    cherish_liber-eng \
+    cherish_liber-user \
+    cherish_liber-userdebug
