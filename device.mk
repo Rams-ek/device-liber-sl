@@ -26,6 +26,10 @@ $(call inherit-product, vendor/motorola/liber/liber-vendor.mk)
 # Properties
 -include $(LOCAL_PATH)/properties.mk
 
+# Platform
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := sm6150
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay

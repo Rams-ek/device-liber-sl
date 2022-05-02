@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_liber.mk
+    $(LOCAL_DIR)/statix_liber.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_liber-eng \
-    aosp_liber-user \
-    aosp_liber-userdebug
+    statix_liber-eng \
+    statix_liber-user \
+    statix_liber-userdebug
