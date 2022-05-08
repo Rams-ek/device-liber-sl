@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_liber.mk
+    $(LOCAL_DIR)/cherish_liber.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_liber-eng \
-    aosp_liber-user \
-    aosp_liber-userdebug
+    cherish_liber-eng \
+    cherish_liber-user \
+    cherish_liber-userdebug

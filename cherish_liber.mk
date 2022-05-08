@@ -22,10 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/liber/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_liber
+PRODUCT_NAME := cherish_liber
 PRODUCT_DEVICE := liber
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Motorola One Fusion+
@@ -45,8 +45,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
-#aosp_recovery
-TARGET_USES_AOSP_RECOVERY := true
-
 #Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
+#vanilla
+CHERISH_VANILLA := true
