@@ -35,8 +35,8 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
 # Prebuilt Packages
-PRODUCT_PACKAGES += \
-    Gboard
+#PRODUCT_PACKAGES += \
+#    Gboard
 
 # Audio
 PRODUCT_PACKAGES += \
@@ -51,8 +51,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
 # Browser
-PRODUCT_PACKAGES += \
-     Via
+#PRODUCT_PACKAGES += \
+#     Via
 
 # Camera
 PRODUCT_COPY_FILES += \
